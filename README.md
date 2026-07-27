@@ -20,9 +20,7 @@ fluid-typographic-engine/
 ├── favicon.svg
 ├── index.html
 ├── README.md
-├── SUBMISSION.txt
 ├── TESTING-CHECKLIST.md
-├── VIDEO-SCRIPT.md
 └── styles.css
 ```
 
