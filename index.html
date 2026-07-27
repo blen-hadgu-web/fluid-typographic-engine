@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="A highly readable magazine article demonstrating fluid typography, a 70-character reading measure, vertical rhythm, and optical text trimming."
+  >
+  <meta name="author" content="Blen Hadgu">
+  <meta name="color-scheme" content="light dark">
+  <title>The Architecture of Fluid Layouts</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#article-content">Skip to article</a>
+
+  <main id="article-content">
+    <article class="magazine-article">
+      <header class="article-header">
+        <span class="article-category">Technology &amp; Design</span>
+
+        <h1 class="article-title">The Architecture of Fluid Layouts</h1>
+
+        <p class="article-lead">
+          How web design moved away from static pixels to embrace the responsive,
+          organic physics of the screen.
+        </p>
+
+        <div class="article-meta">
+          Published on
+          <time datetime="2026-07-16">July 16, 2026</time>
+          by Alex Chen
+        </div>
+      </header>
+
+      <div class="article-body">
+        <p>
+          <span class="drop-cap" aria-hidden="true">W</span><span class="visually-hidden">W</span>eb
+          typography has historically been a struggle between the designer's intent
+          and the user's viewport. Early web pages forced layout structures into rigid
+          boxes, treating the web browser like a sheet of paper. But digital
+          interfaces are dynamic, liquid, and unpredictable.
+        </p>
+
+        <h2>The Search for Perfect Contrast</h2>
+
+        <p>
+          Using older CSS models, calculating contrast meant constantly converting
+          hex codes or managing complex RGB values. Today's modern standards allow us
+          to declare colors natively via perceptual spacing, ensuring that our dark
+          and light themes stay accessible without guesswork.
+        </p>
+
+        <blockquote>
+          <p>
+            “Typography is the craft of framing human thought. On the web, that frame
+            must be liquid.”
+          </p>
+        </blockquote>
+
+        <h2>Stripping Away Font Metadata</h2>
+
+        <p>
+          Fonts have built-in spacing above and below letters, known as half-leading.
+          This empty space often breaks vertical layout grids. With modern CSS
+          features, we can trim this space completely, aligning text elements directly
+          against structural layout boundaries.
+        </p>
+      </div>
+
+      <footer class="article-footer">
+        <p>
+          This editorial is a demonstration of system-wide design tokens,
+          mathematically balanced fluid type, a <code>70ch</code> reading measure,
+          and progressive typographic enhancement.
+        </p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
